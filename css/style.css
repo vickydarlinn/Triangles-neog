@@ -67,3 +67,41 @@ header a:hover {
   height: auto;
   width: 100%;
 }
+/* angle checker app */
+.angle_checker_body {
+}
+.angle_checker {
+  padding-top: 5rem;
+  border: 1px solid red;
+  margin: auto;
+}
+.angle_checker_input input {
+  width: 20rem;
+  margin: 5rem 0 5rem 3rem;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid var(--secondary_color);
+  padding: 1rem 2rem;
+}
+.clearScreen,
+._isTriangle {
+  padding: 1rem 3rem;
+  background-color: var(--bg_color);
+  color: var(--main_headings);
+  font-weight: 700;
+  font-size: 2.4rem;
+  border-radius: 10px;
+  border: 1px solid var(--bg_color);
+  cursor: pointer;
+  margin: 2rem 5rem;
+}
+.clearScreen:hover,
+._isTriangle:hover {
+  transform: scale(0.9, 0.9);
+}
+.output {
+  /* width: 18ch; */
+  color: var(--secondary_color);
+  /* font-weight: 400; */
+}

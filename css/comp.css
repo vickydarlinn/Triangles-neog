@@ -1,6 +1,9 @@
 .center {
   text-align: center;
 }
+.auto {
+  margin: auto;
+}
 .flex {
   display: flex;
   flex-wrap: wrap;

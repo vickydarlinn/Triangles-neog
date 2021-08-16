@@ -4,15 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/comp.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Vicky's Angle Checker</title>
   </head>
   <body>
-    <div><input class="input1" type="number" required /></div>
-    <div><input class="input2" type="number" required /></div>
-    <div><input class="input3" type="number" required /></div>
-    <div><button class="_isTriangle">Check</button></div>
-    <div><button class="clearScreen">Clear</button></div>
+    <!-- header -->
+    <header>
+      <nav>
+        <ul class="flex flex_end">
+          <li><a href="#">INTRO</a></li>
+          <li><a href="#">QUIZ</a></li>
+          <li><a href="#">HYPOTENUSE CALCULATOR</a></li>
+          <li><a href="#">AREA CALCULATOR</a></li>
+          <li><a href="angle_checker.html">ANGLE CHECKER</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- angle checker body -->
+    <div class="angle_checker">
+      <h1 class="center">Triangle's Angles Checker</h1>
+      <div class="center angle_checker_input">
+        <label for="angle1st">1st angle = </label>
+        <input id="angle1st" class="input1" type="number" required />
+      </div>
+      <div class="center angle_checker_input">
+        <label for="angle2nd">2nd angle=</label>
+        <input id="angle2nd" class="input2" type="number" required />
+      </div>
+      <div class="center angle_checker_input">
+        <label for="angle3rd">3rd angle=</label>
+        <input id="angle3rd" class="input3" type="number" required />
+      </div>
+      <div class="center">
+        <button class="_isTriangle">Check</button>
+        <button class="clearScreen">Clear</button>
+      </div>
+      <div class="outputarea">
+        <p class="output center">
+          Enter all angles and check your angles make a triangle or not.
+        </p>
+      </div>
+    </div>
+
     <script src="js/isTriangle.js"></script>
-    <div class="output"></div>
   </body>
 </html>
