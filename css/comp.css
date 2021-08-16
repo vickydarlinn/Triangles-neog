@@ -1,0 +1,16 @@
+.center {
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+.flex_end {
+  justify-content: center;
+}
+.gird {
+  display: grid;
+}
+.grid--1x2 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: min-content;
+}
