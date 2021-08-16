@@ -54,3 +54,16 @@ header a:hover {
   max-width: 100rem;
   margin: auto;
 }
+.intro_h1 {
+  margin: 5rem 1rem 0.5rem 1rem;
+}
+.intro_h2 {
+  margin: 3rem 1rem 1rem 1rem;
+}
+.intro_li {
+  margin-left: 3rem;
+}
+.intro_image {
+  height: auto;
+  width: 100%;
+}

@@ -3,6 +3,7 @@
 }
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 .flex_end {
   justify-content: center;
