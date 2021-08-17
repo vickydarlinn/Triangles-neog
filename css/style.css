@@ -146,3 +146,41 @@ header a:hover {
   color: var(--secondary_color);
   font-weight: 700;
 }
+/* ///////////////Area Calculator////////////////////////////// */
+.area_calculator_container {
+  padding-top: 5rem;
+  margin: auto;
+}
+.area_calculator_input label {
+  font-weight: 700;
+  color: var(--secondary_color);
+}
+.area_calculator_input input {
+  width: 20rem;
+  margin: 5rem 0 5rem 3rem;
+  font-weight: 700;
+  color: var(--main_headings);
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid var(--secondary_color);
+  padding: 1rem 2rem;
+}
+.areaChecker {
+  padding: 1rem 3rem;
+  background-color: var(--bg_color);
+  color: var(--main_headings);
+  font-weight: 700;
+  font-size: 2.4rem;
+  border-radius: 10px;
+  border: 1px solid var(--bg_color);
+  cursor: pointer;
+  margin: 2rem 5rem;
+}
+.areaChecker:hover {
+  transform: scale(0.9, 0.9);
+}
+.areaOutput {
+  color: var(--secondary_color);
+  font-weight: 700;
+}

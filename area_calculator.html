@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/comp.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Vicky's Area Calculator</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav>
+        <ul class="flex flex_end">
+          <li><a href="#">INTRO</a></li>
+          <li><a href="#">QUIZ</a></li>
+          <li>
+            <a href="hypotenuse_calculator.html">HYPOTENUSE CALCULATOR</a>
+          </li>
+          <li><a href="#">AREA CALCULATOR</a></li>
+          <li><a href="angle_checker.html">ANGLE CHECKER</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Hypotenuse calculator -->
+    <div class="area_calculator_container">
+      <h1 class="center">Area Calculator</h1>
+      <div class="center">
+        <img src="images/hypotenuse_checker.png" alt="" />
+      </div>
+
+      <div class="center area_calculator_input">
+        <label for="heightOfTriangle">Height of triangle(a)=></label>
+        <input id="heightOfTriangle" type="number" />
+      </div>
+      <div class="center area_calculator_input">
+        <label for="baseOfTriangle">Base of triangle(b)=></label>
+        <input id="baseOfTriangle" type="number" />
+      </div>
+      <div class="center">
+        <button class="areaChecker">Check Area</button>
+      </div>
+      <div class="center">
+        <p class="areaOutput">
+          The farmula of area of triangle is = 1/2 x (base) x (height) .
+        </p>
+      </div>
+    </div>
+
+    <script src="js/area_calc.js"></script>
+  </body>
+</html>
