@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/comp.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Vicky's Hypotenuse Calculator</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav>
+        <ul class="flex flex_end">
+          <li><a href="#">INTRO</a></li>
+          <li><a href="#">QUIZ</a></li>
+          <li>
+            <a href="hypotenuse_calculator.html">HYPOTENUSE CALCULATOR</a>
+          </li>
+          <li><a href="#">AREA CALCULATOR</a></li>
+          <li><a href="angle_checker.html">ANGLE CHECKER</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Hypotenuse calculator -->
+    <div class="hypotenuse_calculator_container">
+      <h1 class="center">Hypotenuse Calculator</h1>
+      <div class="center">
+        <img src="images/hypotenuse_checker.png" alt="" />
+      </div>
+
+      <div class="center hypotenuse_calculator_input">
+        <label for="heightOfTriangle">Height of triangle(a)</label>
+        <input id="heightOfTriangle" type="number" />
+      </div>
+      <div class="center hypotenuse_calculator_input">
+        <label for="baseOfTriangle">Base of triangle(b)</label>
+        <input id="baseOfTriangle" type="number" />
+      </div>
+      <div class="center">
+        <button class="hypotenuseChecker">Check Hypotenuse</button>
+      </div>
+      <div class="center">
+        <p class="hypotenuseOutput">Hypotenuse(c) of triangle is __</p>
+      </div>
+    </div>
+
+    <script src="js/hypotenuse_calc.js"></script>
+  </body>
+</html>

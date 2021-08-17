@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 }
 
-/* header section */
+/* header section //////////////////////////////////////*/
 header {
   background-color: var(--bg_color);
   padding: 1rem;
@@ -49,7 +49,7 @@ header a:hover {
   color: var(--secondary_color);
 }
 
-/* All about triangle section */
+/* All about triangle section ////////////////////////////////////////*/
 .intro_container {
   max-width: 100rem;
   margin: auto;
@@ -67,17 +67,21 @@ header a:hover {
   height: auto;
   width: 100%;
 }
-/* angle checker app */
-.angle_checker_body {
-}
-.angle_checker {
+/* angle checker app /////////////////////////////////////////*/
+
+.angle_checker_container {
   padding-top: 5rem;
-  border: 1px solid red;
   margin: auto;
+}
+.angle_checker_input label {
+  font-weight: 700;
+  color: var(--secondary_color);
 }
 .angle_checker_input input {
   width: 20rem;
   margin: 5rem 0 5rem 3rem;
+  font-weight: 700;
+  color: var(--main_headings);
   outline: none;
   border-radius: 10px;
   border: none;
@@ -101,7 +105,44 @@ header a:hover {
   transform: scale(0.9, 0.9);
 }
 .output {
-  /* width: 18ch; */
   color: var(--secondary_color);
-  /* font-weight: 400; */
+  font-weight: 700;
+}
+/* /////////////Hypotenuse calcultor///////////////////////////// */
+.hypotenuse_calculator_container {
+  padding-top: 5rem;
+  margin: auto;
+}
+.hypotenuse_calculator_input label {
+  font-weight: 700;
+  color: var(--secondary_color);
+}
+.hypotenuse_calculator_input input {
+  width: 20rem;
+  margin: 5rem 0 5rem 3rem;
+  font-weight: 700;
+  color: var(--main_headings);
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid var(--secondary_color);
+  padding: 1rem 2rem;
+}
+.hypotenuseChecker {
+  padding: 1rem 3rem;
+  background-color: var(--bg_color);
+  color: var(--main_headings);
+  font-weight: 700;
+  font-size: 2.4rem;
+  border-radius: 10px;
+  border: 1px solid var(--bg_color);
+  cursor: pointer;
+  margin: 2rem 5rem;
+}
+.hypotenuseChecker:hover {
+  transform: scale(0.9, 0.9);
+}
+.hypotenuseOutput {
+  color: var(--secondary_color);
+  font-weight: 700;
 }
