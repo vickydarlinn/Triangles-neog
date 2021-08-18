@@ -4,21 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/comp.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Vicky's Triangle Namer</title>
   </head>
   <body>
-    <h1>Which Triangle Am I?</h1>
-    <h2>Three angles are:</h2>
-    <p class="angle1">1st angle=</p>
-    <p class="angle2">2nd angle=</p>
-    <p class="angle3">3rd angle=</p>
-    <input id="acute" type="radio" name="which_triangle" value="acute" />
-    <label for="acute">Acute Angled Triangle</label>
-    <input id="right" type="radio" name="which_triangle" value="right" />
-    <label for="right">Right Angled Triangle</label>
-    <input id="obtuse" type="radio" name="which_triangle" value="obtuse" />
-    <label for="obtuse">obtuse Angled Triangle</label>
-    <div><button class="checker">Check</button></div>
+    <!-- header -->
+    <header>
+      <nav>
+        <ul class="flex flex_end">
+          <li><a href="index.html">INTRO</a></li>
+          <li><a href="#">QUIZ</a></li>
+          <li>
+            <a href="hypotenuse_calculator.html">HYPOTENUSE CALCULATOR</a>
+          </li>
+          <li><a href="area_calculator.html">AREA CALCULATOR</a></li>
+          <li><a href="angle_checker.html">ANGLE CHECKER</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- which triangle am i body! -->
+    <div class="triangle_am_i_container">
+      <h1 class="center">Which Triangle Am I?</h1>
+      <h2 class="center triangle_am_i_h2">Three angles are:</h2>
+      <div class="flex flex_center">
+        <p class="angle1 triangle_angles">1st angle=</p>
+        <p class="angle2 triangle_angles">2nd angle=</p>
+        <p class="angle3 triangle_angles">3rd angle=</p>
+      </div>
+      <div class="flex flex_center flex_direction flex_align_center">
+        <p class="center triangle_am_i_para">Choose correct Answer :-)</p>
+        <div class="triangle_am_i_input">
+          <input id="acute" type="radio" name="which_triangle" value="acute" />
+          <label for="acute">Acute Angled Triangle</label>
+        </div>
+        <div class="triangle_am_i_input">
+          <input id="right" type="radio" name="which_triangle" value="right" />
+          <label for="right">Right Angled Triangle</label>
+        </div>
+        <div class="triangle_am_i_input">
+          <input
+            id="obtuse"
+            type="radio"
+            name="which_triangle"
+            value="obtuse"
+          />
+          <label for="obtuse">obtuse Angled Triangle</label>
+        </div>
+      </div>
+      <div class="center">
+        <button class="triangle_am_i_btn checker">Check</button>
+        <button class="triangle_am_i_btn again">Play Again</button>
+      </div>
+      <div class="center hidden output">Right answer!</div>
+    </div>
+
     <script src="js/which_is_this_triangle.js"></script>
   </body>
 </html>

@@ -8,8 +8,20 @@
   display: flex;
   flex-wrap: wrap;
 }
+.flex_direction {
+  flex-direction: column;
+}
 .flex_end {
   justify-content: center;
+}
+.flex_center {
+  justify-content: center;
+}
+.flex_align_center {
+  align-items: center;
+}
+.hidden {
+  display: none;
 }
 .gird {
   display: grid;

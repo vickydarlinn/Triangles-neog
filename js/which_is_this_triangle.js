@@ -3,6 +3,8 @@ const angle1input = document.querySelector(".angle1");
 const angle2input = document.querySelector(".angle2");
 const angle3input = document.querySelector(".angle3");
 const checker = document.querySelector(".checker");
+const playAgain = document.querySelector(".again");
+const output = document.querySelector(".output");
 
 let max = 180;
 let angle1;
@@ -51,18 +53,29 @@ function userAnserChecker() {
   }
 }
 
-// right display output
+// right display outputs
 function rightAns() {
-  document.querySelector("body").style.backgroundColor = "green";
-  console.log("right ans");
+  document.querySelector("body").style.backgroundColor = "#5CFF5C";
+  output.style.fontSize = "3.6rem";
+  output.style.fontWeight = "700";
+  output.style.color = "#2D2424";
+  output.classList.remove("hidden");
 }
 // wrong display output
 function wrongAns() {
-  document.querySelector("body").style.backgroundColor = "red";
-  console.log("wrong ans!..right answer is " + ans + " angled triangle.");
+  document.querySelector("body").style.backgroundColor = "#FF5C5C";
+  output.textContent =
+    "wrong Ans!..Right answer is " + ans + " angled triangle.";
+  output.style.fontSize = "3.6rem";
+  output.style.fontWeight = "700";
+  output.style.color = "white";
+  output.classList.remove("hidden");
 }
 
 randomDegreeGenerator();
 triangleCategory();
 
 checker.addEventListener("click", userAnserChecker);
+playAgain.addEventListener("click", function () {
+  document.location.reload();
+});

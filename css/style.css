@@ -184,3 +184,42 @@ header a:hover {
   color: var(--secondary_color);
   font-weight: 700;
 }
+/* ///////Which is this triangle????? */
+.triangle_am_i_container {
+  padding-top: 5rem;
+  margin: auto;
+}
+.triangle_angles {
+  margin: 3rem;
+  padding: 0.5rem 1rem;
+  font-size: 3.6rem;
+  color: var(--main_headings);
+  font-weight: 700;
+  border: 1px solid var(--secondary_color);
+  border-radius: 10px;
+}
+.triangle_am_i_input input {
+  color: green;
+  font-size: 4rem;
+}
+.triangle_am_i_h2 {
+  margin: 2rem;
+}
+.triangle_am_i_para {
+  margin: 2rem;
+}
+
+.triangle_am_i_btn {
+  padding: 1rem 3rem;
+  background-color: var(--bg_color);
+  color: var(--main_headings);
+  font-weight: 700;
+  font-size: 2.4rem;
+  border-radius: 10px;
+  border: 1px solid var(--bg_color);
+  cursor: pointer;
+  margin: 2rem 5rem;
+}
+.triangle_am_i_btn:hover {
+  transform: scale(0.9, 0.9);
+}
