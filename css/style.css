@@ -32,27 +32,59 @@ a {
 /* header section //////////////////////////////////////*/
 header {
   background-color: var(--bg_color);
-  padding: 1rem;
+  padding: 3rem;
 }
-header li {
-  list-style: none;
-}
-header ul {
-  margin: 3rem;
-}
-header a {
-  margin: 3rem 3rem;
-  font-weight: 700;
+.header_btn {
+  padding: 0.5rem 3rem;
+  background-color: var(--bg_color);
   color: var(--main_headings);
+  font-weight: 700;
+  font-size: 2.4rem;
+  border-radius: 10px;
+  border: 1px solid var(--main_headings);
+  cursor: pointer;
+  margin: 2rem 5rem;
 }
-header a:hover {
+
+.header_btn:hover {
+  transform: scale(0.9, 0.9);
+}
+/* Home page section */
+.home_container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home_h1 {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.home_container a {
+  display: inline-block;
+}
+.home_btn {
+  padding: 3rem 1rem;
+  margin: 2rem;
+  background-color: var(--normal_color);
+  font-size: 2.4rem;
+  font-weight: 700;
+  border: 1px solid var(--normal_color);
+  border-radius: 10px;
+  width: 32rem;
   color: var(--secondary_color);
 }
 
-/* All about triangle section ////////////////////////////////////////*/
+.home_btn:hover {
+  transform: scale(0.9, 0.9);
+}
+
+/* All about triangle (intro section) ////////////////////////////////////////*/
 .intro_container {
   max-width: 100rem;
   margin: auto;
+  padding: 1rem 2rem;
 }
 .intro_h1 {
   margin: 5rem 1rem 0.5rem 1rem;
@@ -72,6 +104,7 @@ header a:hover {
 .angle_checker_container {
   padding-top: 5rem;
   margin: auto;
+  padding: 1rem 2rem;
 }
 .angle_checker_input label {
   font-weight: 700;
@@ -112,6 +145,7 @@ header a:hover {
 .hypotenuse_calculator_container {
   padding-top: 5rem;
   margin: auto;
+  padding: 1rem 2rem;
 }
 .hypotenuse_calculator_input label {
   font-weight: 700;
@@ -150,6 +184,7 @@ header a:hover {
 .area_calculator_container {
   padding-top: 5rem;
   margin: auto;
+  padding: 1rem 2rem;
 }
 .area_calculator_input label {
   font-weight: 700;
@@ -188,6 +223,7 @@ header a:hover {
 .triangle_am_i_container {
   padding-top: 5rem;
   margin: auto;
+  padding: 1rem 2rem;
 }
 .triangle_angles {
   margin: 3rem;
