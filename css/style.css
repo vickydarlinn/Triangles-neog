@@ -259,3 +259,36 @@ header {
 .triangle_am_i_btn:hover {
   transform: scale(0.9, 0.9);
 }
+/* ask third angle////////////////////////////////////////// */
+.ask_third_angle_container {
+  padding-top: 5rem;
+  margin: auto;
+  padding: 1rem 2rem;
+}
+.ask_third_angle_btn {
+  padding: 1rem 3rem;
+  background-color: var(--bg_color);
+  color: var(--main_headings);
+  font-weight: 700;
+  font-size: 2.4rem;
+  border-radius: 10px;
+  border: 1px solid var(--bg_color);
+  cursor: pointer;
+  margin: 2rem 5rem;
+}
+.ask_third_angle_para {
+  color: var(--main_headings);
+  margin: 2rem;
+  font-weight: 700;
+}
+.ask_third_angle_input input {
+  width: 20rem;
+  margin: 5rem 0 5rem 3rem;
+  font-weight: 700;
+  color: var(--main_headings);
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid var(--secondary_color);
+  padding: 1rem 2rem;
+}
