@@ -12,11 +12,14 @@ function areaCalculator() {
   const heightValue = Number(height.value);
 
   // process of finding area of triangle
-
-  const areaValue = (1 / 2) * baseValue * heightValue;
+  if (baseValue > 0 && heightValue > 0) {
+    const areaValue = (1 / 2) * baseValue * heightValue;
+    output.textContent = "The area of triangle is = " + areaValue;
+  } else {
+    output.textContent = "Please input proper values";
+  }
 
   // output
-  output.textContent = "The area of triangle is = " + areaValue;
 }
 // after refreshing the screen values got cleared.
 function clearscreen() {
