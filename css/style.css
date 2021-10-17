@@ -292,3 +292,21 @@ header {
   border: 1px solid var(--secondary_color);
   padding: 1rem 2rem;
 }
+/* triangle quiz */
+.triangle_quiz_container input {
+  margin-bottom: 3rem;
+}
+.triangle_quiz_btn_div {
+  text-align: center;
+}
+.triangle_quiz_btn {
+  padding: 1rem 3rem;
+  background-color: var(--bg_color);
+  color: var(--main_headings);
+  font-weight: 700;
+  font-size: 2.4rem;
+  border-radius: 10px;
+  border: 1px solid var(--bg_color);
+  cursor: pointer;
+  margin: 2rem 5rem;
+}

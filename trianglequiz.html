@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/comp.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Vicky's Hypotenuse Calculator</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="center">
+        <a class="header_btn" href="index.html">Back</a>
+      </div>
+    </header>
+    <!-- triangle quiz -->
+    <div class="triangle_quiz_container">
+      <h1 id="heading">How well do you know Triangles?</h1>
+      <form class="triangleQuiz">
+        <div class="questions">
+          <p>
+            1. If a triangle has sides of 2cm, 3cm, 4cm, what is the type of
+            triangle?
+          </p>
+          <input
+            type="radio"
+            class="question"
+            id="Equilateral"
+            name="ques-1"
+            value="Equilateral"
+          />
+          <label for="Equilateral">Equilateral</label>
+          <input
+            type="radio"
+            class="question"
+            id="Isoceles"
+            name="ques-1"
+            value="Isoceles"
+          />
+          <label for="Isoceles">Isoceles</label>
+          <input
+            type="radio"
+            class="question"
+            id="Scalene"
+            name="ques-1"
+            value="Scalene"
+          />
+          <label for="Scalene">Scalene</label>
+        </div>
+        <div class="questions">
+          <p>
+            2. If a triangle has 2 sides with equal lengths and 60° angle
+            between them. What is the type of triangle?
+          </p>
+          <input
+            type="radio"
+            class="question"
+            id="q2-Equilateral"
+            name="ques-2"
+            value="Equilateral"
+          />
+          <label for="q2-Equilateral">Equilateral</label>
+          <input
+            type="radio"
+            class="question"
+            id="q2-Isoceles"
+            name="ques-2"
+            value="Isoceles"
+          />
+          <label for="q2-Isoceles">Isoceles</label>
+          <input
+            type="radio"
+            class="question"
+            id="q2-Both"
+            name="ques-2"
+            value="Both"
+          />
+          <label for="q2-Both">Both</label>
+        </div>
+        <div class="questions">
+          <p>
+            3. The perimeter of an equilateral triangle is 15cm. What is the
+            length of one side?
+          </p>
+          <input
+            type="radio"
+            class="question"
+            id="q3-15cm"
+            name="ques-3"
+            value="15cm"
+          />
+          <label for="q3-15cm">15cm</label>
+          <input
+            type="radio"
+            class="question"
+            id="q3-30cm"
+            name="ques-3"
+            value="30cm"
+          />
+          <label for="q3-30cm">30cm</label>
+          <input
+            type="radio"
+            class="question"
+            id="q4-5cm"
+            name="ques-3"
+            value="5cm"
+          />
+          <label for="q4-5cm">5cm</label>
+        </div>
+        <div class="questions">
+          <p>
+            4. If a triangle has angles 25°, 75°, 80°. Is it an acute triangle?
+          </p>
+          <input
+            type="radio"
+            class="question"
+            id="yes-ans"
+            name="ques-4"
+            value="yes"
+          />
+          <label for="yes-ans">yes</label>
+          <input
+            type="radio"
+            class="question"
+            id="no-ans"
+            name="ques-4"
+            value="no"
+          />
+          <label for="no-ans">no</label>
+        </div>
+        <div class="questions">
+          <p>
+            5. If a triangle has angles 115°, 25°, 40°. Is it an acute triangle?
+          </p>
+          <input
+            type="radio"
+            class="question"
+            id="q5-yes-ans"
+            name="ques-5"
+            value="yes"
+          />
+          <label for="q5-yes-ans">yes</label>
+          <input
+            type="radio"
+            class="question"
+            id="q5-no-ans"
+            name="ques-5"
+            value="no"
+          />
+          <label for="q5-no-ans">no</label>
+        </div>
+        <div class="questions">
+          <p>
+            6. If a triangle has angles 90°, 60°, 30°. Is it a right angle
+            triangle?
+          </p>
+          <input
+            type="radio"
+            class="question"
+            id="q6-yes-ans"
+            name="ques-6"
+            value="yes"
+          />
+          <label for="q6-yes-ans">yes</label>
+          <input
+            type="radio"
+            class="question"
+            id="q6-no-ans"
+            name="ques-6"
+            value="no"
+          />
+          <label for="q6-no-ans">no</label>
+        </div>
+        <div class="questions">
+          <p>
+            7. There is a triangle XYZ where XY is perpendicular to YZ and angle
+            X = 70 degrees. What is the measure of angle Z?
+          </p>
+          <input
+            type="radio"
+            class="question"
+            id="q7-deg-1"
+            name="ques-7"
+            value="120deg"
+          />
+          <label for="q7-deg-1">120deg</label>
+          <input
+            type="radio"
+            class="question"
+            id="q7-deg-2"
+            name="ques-7"
+            value="20deg"
+          />
+          <label for="q7-deg-2">20deg</label>
+          <input
+            type="radio"
+            class="question"
+            id="q7-deg-3"
+            name="ques-7"
+            value="110deg"
+          />
+          <label for="q7-deg-3">110deg</label>
+          <input
+            type="radio"
+            class="question"
+            id="q7-deg-4"
+            name="ques-7"
+            value="30deg"
+          />
+          <label for="q7-deg-4">30deg</label>
+        </div>
+        <div class="questions">
+          <p>
+            8. There is a right triangle PQR where: angle Q = 90 degrees; angle
+            P = angle R. What is the measure of angles P and R?
+          </p>
+          <input
+            type="radio"
+            class="question"
+            id="deg-1"
+            name="ques-8"
+            value="45deg"
+          />
+          <label for="deg-1">45deg</label>
+          <input
+            type="radio"
+            class="question"
+            id="deg-2"
+            name="ques-8"
+            value="60deg"
+          />
+          <label for="deg-2">60deg</label>
+          <input
+            type="radio"
+            class="question"
+            id="deg-3"
+            name="ques-8"
+            value="65deg"
+          />
+          <label for="deg-3">65deg</label>
+          <input
+            type="radio"
+            class="question"
+            id="deg-4"
+            name="ques-8"
+            value="95deg"
+          />
+          <label for="deg-4">95deg</label>
+        </div>
+        <div class="questions">
+          <p>
+            9. If a triangle has 2 angles of 75 degrees. What is the measure of
+            third angle in degree?
+          </p>
+          <input
+            type="radio"
+            class="question"
+            id="q9-ans-1"
+            name="ques-9"
+            value="25"
+          />
+          <label for="q9-ans-1">25</label>
+          <input
+            type="radio"
+            class="question"
+            id="q9-ans-2"
+            name="ques-9"
+            value="30"
+          />
+          <label for="q9-ans-2">30</label>
+          <input
+            type="radio"
+            class="question"
+            id="q9-ans-3"
+            name="ques-9"
+            value="15"
+          />
+          <label for="q9-ans-3">15</label>
+        </div>
+        <div class="questions">
+          <p>
+            10. A right triangle ABC is given where angle B = 90 degrees.<br />
+            Which side of the triangle is the longest?
+          </p>
+          <input
+            type="radio"
+            class="question"
+            id="side-1"
+            name="ques-10"
+            value="side AB"
+          />
+          <label for="side-1">side AB</label>
+          <input
+            type="radio"
+            class="question"
+            id="side-2"
+            name="ques-10"
+            value="side BC"
+          />
+          <label for="side-2">side BC</label>
+          <input
+            type="radio"
+            class="question"
+            id="side-3"
+            name="ques-10"
+            value="side CA"
+          />
+          <label for="side-3">side CA</label>
+          <input
+            type="radio"
+            class="question"
+            id="side-4"
+            name="ques-10"
+            value="None"
+          />
+          <label for="side-4">None</label>
+        </div>
+      </form>
+
+      <div class="triangle_quiz_btn_div">
+        <button id="submit-btn" class="triangle_quiz_btn">Submit</button>
+      </div>
+
+      <div id="output-score" style="display: none"></div>
+    </div>
+
+    <script src="js/trianglequiz.js"></script>
+  </body>
+</html>
